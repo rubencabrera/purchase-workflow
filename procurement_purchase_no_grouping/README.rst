@@ -14,7 +14,7 @@ Configuration
 
 To configure this module, you need to:
 
-go to each product category, and select one of these values in the field
+Go to each product category, and select one of these values in the field
 *Procured purchase grouping*:
 
 * *Standard grouping (default)*: With this option, procurements will generate
@@ -42,10 +42,11 @@ Images
 Contributors
 ------------
 
-* Pedro M. Baeza <pedro.baeza@tecnativa.com>
+* Tecnativa <info@tecnativa.com>
 * Ana Juaristi <ajuaristo@gmail.com>
 * Alfredo de la Fuente <alfredodelafuente@avanzosc.es>
 * Alex Comba <alex.comba@agilebg.com>
+* Daniel Rodriguez Lijo <drl.9319@gmail.com>
 
 Maintainer
 ----------

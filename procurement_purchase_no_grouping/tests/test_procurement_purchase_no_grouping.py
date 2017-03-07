@@ -13,7 +13,10 @@ class TestProcurementPurchaseNoGrouping(TransactionCase):
             {'name': 'Test category'})
         self.product = self.env['product.product'].create(
             {'name': 'Test product',
-             'categ_id': self.category.id}
+             'categ_id': self.category.id,
+             'seller_ids': [
+                 (0, 0, {'name': self.env.ref('base.res_partner_1').id,
+                         'min_qty': 1.0})]}
         )
         self.env['product.supplierinfo'].create({
             'name': self.env.ref('base.res_partner_1').id,
